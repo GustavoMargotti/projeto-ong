@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color:rgb(238, 237, 235);
+}
+
+.navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00695c;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.topo{
+    display: flex;
+}
+
+#imagem-topo{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.secao img {
+    max-width: 400px;
+    max-height: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secao .info {
+    padding: 30px;
+    flex: 1;
+}
+
+.secao h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.secao p, 
+.secao ul {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #009688;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.botao:hover {
+    background: #00796b;
+}
